@@ -9,6 +9,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
+        app:layout_constraintDimensionRatio="1:1"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/nomeContato"
@@ -23,6 +24,7 @@
         android:layout_height="0dp"
         android:gravity="center_vertical"
         android:text="NomeContato"
+        android:layout_marginStart="4dp"
         app:layout_constraintBottom_toTopOf="@+id/conversa"
         app:layout_constraintEnd_toStartOf="@id/horario"
         app:layout_constraintHorizontal_weight="4"
@@ -34,6 +36,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
+        android:layout_marginStart="4dp"
         android:gravity="center_vertical"
         android:text="Conversa"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
