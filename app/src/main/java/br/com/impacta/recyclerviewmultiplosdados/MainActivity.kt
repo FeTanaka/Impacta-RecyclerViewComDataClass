@@ -28,7 +28,55 @@ class MainActivity : AppCompatActivity() {
                 "Olá Rubiane",
                 R.drawable.imagem_02,
                 "22:16"
-            )
+            ),
+            Whatsapp(
+                "Alexandre",
+                "Olá Alexandre",
+                R.drawable.imagem_03,
+                "22:16"
+            ),
+            Whatsapp(
+                "Diego",
+                "Olá Diego",
+                R.drawable.imagem_04,
+                "22:16"
+            ),
+            Whatsapp(
+                "Raquel",
+                "Olá Raquel",
+                R.drawable.imagem_05,
+                "22:16"
+            ),
+            Whatsapp(
+                "José Carlos",
+                "Olá José Carlos",
+                R.drawable.imagem_06,
+                "22:16"
+            ),
+            Whatsapp(
+                "Cainã",
+                "Olá Cainã",
+                R.drawable.imagem_07,
+                "22:16"
+            ),
+            Whatsapp(
+                "Luana",
+                "Olá Luana",
+                R.drawable.imagem_08,
+                "22:16"
+            ),
+            Whatsapp(
+                "Victor",
+                "Olá Victor",
+                R.drawable.imagem_09,
+                "22:16"
+            ),
+            Whatsapp(
+                "Impacta",
+                "Olá Impacta",
+                R.drawable.imagem_10,
+                "22:16"
+            ),
         )
 
         binding.recyclerView.adapter = ConversaAdapter(listaDeConversas)
